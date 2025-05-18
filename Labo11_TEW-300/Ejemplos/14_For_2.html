@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 14 - Estructura repetitiva  FOR 2</title>
+</head>
+<body>
+    <h1>Ejemplo 14 - Estructura repetitiva  FOR 2</h1>
+    <div id="resTable"></div>
+    <script>
+        let A;
+        A = parseInt(prompt("Ingrese la tabla de "));
+           let resultado = "";
+        for (let i=1; i <= 10 ; i++){
+          resultado += A+" X "+i+" = "+(A*i)+"<br>";
+        }
+        document.getElementById("resTable").innerHTML = resultado;
+
+        //document.write("La Multiplicacion de: "+A+" * "+B+" = "+suma);
+    </script>
+</body>
+</html>

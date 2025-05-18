@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 15 - Estructura repetitiva WHILE</title>
+</head>
+<body>
+    <h1>Ejemplo 15 - Estructura repetitiva WHILE</h1>
+    <div id="resTable"></div>
+    <script>
+        let n = parseInt(prompt("Número"));
+        let cp = 2;
+        let i = 1;
+        let resultado = "";
+
+        while (i <= n) {
+            resultado += cp + ",";
+            cp += 2;
+            i++;
+        }
+
+        document.getElementById("resTable").innerHTML = resultado;
+    </script>
+</body>
+</html>

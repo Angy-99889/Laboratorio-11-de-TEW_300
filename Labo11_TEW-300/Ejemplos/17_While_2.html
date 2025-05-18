@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 17 - Estructura repetitiva WHILE</title>
+</head>
+<body>
+    <h1>Ejemplo 17 - Estructura repetitiva WHILE</h1>
+    <div id="resTable"></div>
+    <script>
+        let A = parseInt(prompt("Ingrese la tabla de "));
+        let resultado = "";
+        let i = 1;
+        while (i <= 10) {
+            resultado += A + " X " + i + " = " + (A * i) + "<br>";
+            i++;
+        }
+        document.getElementById("resTable").innerHTML = resultado;
+    </script>
+</body>
+</html>

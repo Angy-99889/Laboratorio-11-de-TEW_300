@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 3 de InnerHTML</title>
+</head>
+<body>
+   <h1> Ejemplo 3 de InnerHTML</h1> 
+   <h2 id="respuesta "></h2>
+   <script>
+
+
+    let nombre = prompt("Ingrese Su Nombre");
+    //alert('Tu Nombre es: ' +nombre);
+
+    document.getElementById("respuesta ").innerHTML = "Tu nombre es : "+nombre;
+    document.getElementById("respuesta ").style.color = "blue";
+    document.getElementById("respuesta ").style.fontSize= "48px";
+   </script>
+</body>
+</html>

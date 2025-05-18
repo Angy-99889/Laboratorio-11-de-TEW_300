@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 19 - Estructura repetitiva DO-WHILE</title>
+</head>
+<body>
+    <h1>Ejemplo 19 - Estructura repetitiva DO-WHILE</h1>
+    <script>
+        let A, B, suma, i;
+        A = parseInt(prompt("Ingrese A"));
+        B = parseInt(prompt("Ingrese B"));
+        suma = 0;
+        i = 1;
+        do {
+            suma = suma + A;
+            i++;
+        } while (i <= B);
+        document.write("La Multiplicación de: " + A + " * " + B + " = " + suma);
+    </script>
+</body>
+</html>

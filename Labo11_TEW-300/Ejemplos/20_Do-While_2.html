@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 20 - Estructura repetitiva DO-WHILE</title>
+</head>
+<body>
+    <h1>Ejemplo 20 - Estructura repetitiva DO-WHILE</h1>
+    <div id="resTable"></div>
+    <script>
+        let A = parseInt(prompt("Ingrese la tabla de "));
+        let resultado = "";
+        let i = 1;
+        do {
+            resultado += A + " X " + i + " = " + (A * i) + "<br>";
+            i++;
+        } while (i <= 10);
+        document.getElementById("resTable").innerHTML = resultado;
+    </script>
+</body>
+</html>
